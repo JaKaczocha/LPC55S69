@@ -5,7 +5,7 @@
  * Generated linker script file for LPC55S69
  * Created from memory.ldt by FMCreateLinkMemory
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v11.8.0 [Build 1165] [2023-07-26] on 12 paź 2023, 18:35:59
+ * MCUXpresso IDE v11.8.0 [Build 1165] [2023-07-26] on 16 paź 2023, 21:51:52
  */
 
 MEMORY
