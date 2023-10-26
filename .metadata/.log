@@ -7314,3 +7314,301 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.core.s
 
 !ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 01:05:08.733
 !MESSAGE RedlinkServer telnet session connected on port 3025->52537 @ 127.0.0.1
+!SESSION 2023-10-26 18:28:06.499 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-26 18:28:38.666
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-26 18:28:47.062
+!MESSAGE Indexed 'PSW_Lab03' (26 sources, 47 headers) in 5,11 sec: 7 312 declarations; 20 968 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:34:48.180
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:34:48.184
+!MESSAGE RedlinkServer telnet session connected on port 3025->50107 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:35:26.072
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:35:27.079
+!MESSAGE RedlinkServer telnet session connected on port 3025->50111 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:37:12.166
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:37:13.184
+!MESSAGE RedlinkServer telnet session connected on port 3025->50128 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:39:06.784
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:39:07.796
+!MESSAGE RedlinkServer telnet session connected on port 3025->50134 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:46:34.961
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:46:35.969
+!MESSAGE RedlinkServer telnet session connected on port 3025->50148 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:48:06.723
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:48:07.734
+!MESSAGE RedlinkServer telnet session connected on port 3025->50151 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:50:51.481
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:50:52.490
+!MESSAGE RedlinkServer telnet session connected on port 3025->50155 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:56:34.898
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:56:35.911
+!MESSAGE RedlinkServer telnet session connected on port 3025->50167 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:57:23.873
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:57:24.885
+!MESSAGE RedlinkServer telnet session connected on port 3025->50171 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 18:58:55.464
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 18:58:56.477
+!MESSAGE RedlinkServer telnet session connected on port 3025->50174 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 19:01:09.044
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 19:01:10.055
+!MESSAGE RedlinkServer telnet session connected on port 3025->50180 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-26 19:03:30.491
+!MESSAGE Indexed 'PSW_Lab03_4' (27 sources, 49 headers) in 1,56 sec: 7 753 declarations; 22 183 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2023-10-26 19:04:36.253
+!MESSAGE Failed to switch to function 'PinsFunc_1'. Function not found.
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.394
+!MESSAGE [TOOL] Could not find any matching component for type ctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.406
+!MESSAGE [TOOL] Could not find any matching component for type ostimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.453
+!MESSAGE [TOOL] Could not find any matching component for type sctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.536
+!MESSAGE [TOOL] Could not find any matching component for type lpc_dma
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.548
+!MESSAGE [TOOL] Could not find any matching component for type wwdt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.559
+!MESSAGE [TOOL] Could not find any matching component for type lpc_crc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.584
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.595
+!MESSAGE [TOOL] Could not find any matching component for type mrt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.621
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_spi
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.647
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2s
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.659
+!MESSAGE [TOOL] Could not find any matching component for type utick
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.677
+!MESSAGE [TOOL] Could not find any matching component for type gint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.712
+!MESSAGE [TOOL] Could not find any matching component for type lpadc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.744
+!MESSAGE [TOOL] Could not find any matching component for type cmp_1
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.762
+!MESSAGE [TOOL] Could not find any matching component for type lpc_rtc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 19:06:12.902
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:56.806
+!MESSAGE [TOOL] Could not find any matching component for type ctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:56.819
+!MESSAGE [TOOL] Could not find any matching component for type ostimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:56.854
+!MESSAGE [TOOL] Could not find any matching component for type sctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:56.942
+!MESSAGE [TOOL] Could not find any matching component for type lpc_dma
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:56.955
+!MESSAGE [TOOL] Could not find any matching component for type wwdt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:56.971
+!MESSAGE [TOOL] Could not find any matching component for type lpc_crc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:56.998
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:57.011
+!MESSAGE [TOOL] Could not find any matching component for type mrt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:57.038
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_spi
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:57.066
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2s
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:57.079
+!MESSAGE [TOOL] Could not find any matching component for type utick
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:57.098
+!MESSAGE [TOOL] Could not find any matching component for type gint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:57.134
+!MESSAGE [TOOL] Could not find any matching component for type lpadc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:57.173
+!MESSAGE [TOOL] Could not find any matching component for type cmp_1
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:57.193
+!MESSAGE [TOOL] Could not find any matching component for type lpc_rtc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2023-10-26 21:14:57.230
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.crt.log 1 0 2023-10-26 21:22:08.130
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 21:22:09.138
+!MESSAGE RedlinkServer telnet session connected on port 3025->50458 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 21:23:01.823
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 21:23:02.833
+!MESSAGE RedlinkServer telnet session connected on port 3025->50461 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 21:24:30.997
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 21:24:32.008
+!MESSAGE RedlinkServer telnet session connected on port 3025->50464 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 21:38:19.522
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 21:38:20.533
+!MESSAGE RedlinkServer telnet session connected on port 3025->50500 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 21:42:16.896
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 21:42:17.907
+!MESSAGE RedlinkServer telnet session connected on port 3025->50505 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 21:44:02.566
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 21:44:03.576
+!MESSAGE RedlinkServer telnet session connected on port 3025->50508 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 21:46:12.258
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 21:46:13.266
+!MESSAGE RedlinkServer telnet session connected on port 3025->50513 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 21:51:17.614
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 21:51:18.620
+!MESSAGE RedlinkServer telnet session connected on port 3025->50523 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 21:56:04.150
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 21:56:05.158
+!MESSAGE RedlinkServer telnet session connected on port 3025->50557 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:00:35.315
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:00:36.325
+!MESSAGE RedlinkServer telnet session connected on port 3025->50577 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:05:15.081
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:05:16.089
+!MESSAGE RedlinkServer telnet session connected on port 3025->50588 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:06:43.800
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:06:44.809
+!MESSAGE RedlinkServer telnet session connected on port 3025->50592 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:09:01.271
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:09:02.277
+!MESSAGE RedlinkServer telnet session connected on port 3025->50724 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:11:02.039
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:11:03.045
+!MESSAGE RedlinkServer telnet session connected on port 3025->50729 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:11:50.203
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:11:51.212
+!MESSAGE RedlinkServer telnet session connected on port 3025->50756 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:15:46.332
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:15:47.343
+!MESSAGE RedlinkServer telnet session connected on port 3025->50901 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:18:45.876
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:18:46.890
+!MESSAGE RedlinkServer telnet session connected on port 3025->50910 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:19:50.228
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:19:51.236
+!MESSAGE RedlinkServer telnet session connected on port 3025->50913 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-10-26 22:22:18.738
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-10-26 22:22:19.745
+!MESSAGE RedlinkServer telnet session connected on port 3025->50923 @ 127.0.0.1

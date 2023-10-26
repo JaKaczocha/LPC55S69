@@ -13,7 +13,7 @@ volatile uint8_t counter=0;
 volatile bool mode=false;
 volatile bool canEnter = true;
 
-#define N 6
+#define N 12
 
 typedef struct{
 char name[16];
@@ -22,13 +22,24 @@ uint8_t val;
 uint8_t max;
 }Menu_t;
 
+
+volatile uint8_t first =0;
+volatile uint8_t last =6;
+
+
 Menu_t MenuItems[N]={
-{"Value 1", 0, 0, 50},
-{"Value 2", 0, 0, 50},
-{"Value 3", 0, 0, 50},
-{"Value 4", 0, 0, 50},
-{"Value 5", 0, 0, 50},
-{"Value 6", 0, 0, 50},
+{"Value  1", 0, 0, 50},
+{"Value  2", 0, 0, 50},
+{"Value  3", 0, 0, 50},
+{"Value  4", 0, 0, 50},
+{"Value  5", 0, 0, 50},
+{"Value  6", 0, 0, 50},
+{"Value  7", 0, 0, 50},
+{"Value  8", 0, 0, 50},
+{"Value  9", 0, 0, 50},
+{"Value 10", 0, 0, 50},
+{"Value 11", 0, 0, 50},
+{"Value 12", 0, 0, 50},
 };
 void cbENC_INTA(pint_pin_int_t pintr, uint32_t pmatch_status) {
 	if(!canEnter) {
@@ -42,6 +53,10 @@ void cbENC_INTA(pint_pin_int_t pintr, uint32_t pmatch_status) {
 		} else {
 			if(counter>0)
 				counter--;
+			if(first > counter) {
+				first--;
+				last--;
+			}
 		}
 	} else {
 		if(mode) {
@@ -50,6 +65,10 @@ void cbENC_INTA(pint_pin_int_t pintr, uint32_t pmatch_status) {
 		} else {
 			if(counter<N-1)
 				counter++;
+			if(counter >= last) {
+				last++;
+				first++;
+			}
 		}
 	}
 }
@@ -64,6 +83,7 @@ void cbENC_INTS(pint_pin_int_t pintr, uint32_t pmatch_status) {
  * @brief Application entry point.
  */
 int main(void) {
+
 	/* Init board hardware. */
 	BOARD_InitBootPins();
 	BOARD_InitBootClocks();
@@ -78,15 +98,21 @@ int main(void) {
 	OLED_Draw_Line(0,10, 127,10);
 	OLED_Refresh_Gram();
 	while(1) {
-	for(int i=0; i<N;i++) {
-		if(mode && i==counter)
-			sprintf(sbuff, " %s [%03d] ", MenuItems[i].name, MenuItems[i].val);
-		else
-			sprintf(sbuff, " %s %03d   ", MenuItems[i].name, MenuItems[i].val);
+		OLED_Puts(52, 0, "MENU");
+		OLED_Draw_Line(0,10, 127,10);
+		OLED_Refresh_Gram();
 
-		OLED_Puts(0, 2+i, sbuff);
-	}
-		OLED_Puts(0, 2+counter, ">");
+
+		for(int i=first; i < last;i++) {
+			if(mode && i==counter)
+				sprintf(sbuff, " %s [%03d] ", MenuItems[i].name, MenuItems[i].val);
+			else
+				sprintf(sbuff, " %s %03d   ", MenuItems[i].name, MenuItems[i].val);
+
+			OLED_Puts(0, 2+i - first, sbuff);
+
+		}
+		OLED_Puts(0, 2+counter - first , ">");
 		OLED_Refresh_Gram();
 
 		canEnter = true;
