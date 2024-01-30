@@ -8081,3 +8081,337 @@ C Model Exception: C Model Status [Element PSW_Lab11.c does not exist.]
 
 !ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-23 02:34:49.242
 !MESSAGE RedlinkServer telnet session connected on port 3025->50833 @ 127.0.0.1
+!SESSION 2024-01-27 10:07:42.007 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-27 10:08:27.830
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:22:46.294
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:22:46.300
+!MESSAGE RedlinkServer telnet session connected on port 3025->50376 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:24:09.171
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:24:10.188
+!MESSAGE RedlinkServer telnet session connected on port 3025->50380 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:27:26.167
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:27:27.188
+!MESSAGE RedlinkServer telnet session connected on port 3025->50391 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:28:08.017
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:28:09.024
+!MESSAGE RedlinkServer telnet session connected on port 3025->50394 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:29:46.046
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:29:47.076
+!MESSAGE RedlinkServer telnet session connected on port 3025->50397 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:30:33.863
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:30:34.877
+!MESSAGE RedlinkServer telnet session connected on port 3025->50401 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:32:10.299
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:32:11.309
+!MESSAGE RedlinkServer telnet session connected on port 3025->50404 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:33:32.107
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:33:33.115
+!MESSAGE RedlinkServer telnet session connected on port 3025->50408 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:35:29.439
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:35:30.457
+!MESSAGE RedlinkServer telnet session connected on port 3025->50412 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:36:03.968
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:36:04.973
+!MESSAGE RedlinkServer telnet session connected on port 3025->50415 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:37:33.843
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:37:34.853
+!MESSAGE RedlinkServer telnet session connected on port 3025->50418 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:38:32.373
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:38:33.378
+!MESSAGE RedlinkServer telnet session connected on port 3025->50423 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:39:20.186
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:39:21.194
+!MESSAGE RedlinkServer telnet session connected on port 3025->50426 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:47:16.639
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:47:17.653
+!MESSAGE RedlinkServer telnet session connected on port 3025->50737 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:48:22.324
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:48:23.332
+!MESSAGE RedlinkServer telnet session connected on port 3025->50748 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:53:43.027
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:53:44.038
+!MESSAGE RedlinkServer telnet session connected on port 3025->50761 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-27 10:58:47.377
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-27 10:58:48.386
+!MESSAGE RedlinkServer telnet session connected on port 3025->50788 @ 127.0.0.1
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-01-27 11:10:15.718
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-01-29 22:21:54.203 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-01-29 22:24:49.983
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-29 22:25:18.137
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-29 22:27:56.568
+!MESSAGE Indexed 'PSW_Lab06CppNeoPixels' (27 sources, 56 headers) in 6,7 sec: 9 122 declarations; 19 221 references; 42 unresolved inclusions; 106 syntax errors; 6 364 unresolved names (18%)
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2024-01-29 22:29:04.699
+!MESSAGE Failed to switch to function 'PinsFunc_1'. Function not found.
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.283
+!MESSAGE [TOOL] Could not find any matching component for type ctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.295
+!MESSAGE [TOOL] Could not find any matching component for type ostimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.345
+!MESSAGE [TOOL] Could not find any matching component for type sctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.436
+!MESSAGE [TOOL] Could not find any matching component for type lpc_dma
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.449
+!MESSAGE [TOOL] Could not find any matching component for type wwdt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.462
+!MESSAGE [TOOL] Could not find any matching component for type lpc_crc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.482
+!MESSAGE [TOOL] Could not find any matching component for type pint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.495
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.517
+!MESSAGE [TOOL] Could not find any matching component for type mrt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.569
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2s
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.581
+!MESSAGE [TOOL] Could not find any matching component for type utick
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.601
+!MESSAGE [TOOL] Could not find any matching component for type gint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.636
+!MESSAGE [TOOL] Could not find any matching component for type lpadc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.670
+!MESSAGE [TOOL] Could not find any matching component for type cmp_1
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.691
+!MESSAGE [TOOL] Could not find any matching component for type lpc_rtc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-29 22:31:45.737
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.crt.log 1 0 2024-01-29 22:34:17.623
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 22:34:17.627
+!MESSAGE RedlinkServer telnet session connected on port 3025->50944 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 22:35:05.766
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 22:35:06.780
+!MESSAGE RedlinkServer telnet session connected on port 3025->50949 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 22:35:20.404
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 22:35:21.414
+!MESSAGE RedlinkServer telnet session connected on port 3025->50952 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 22:37:37.354
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 22:37:38.366
+!MESSAGE RedlinkServer telnet session connected on port 3025->50958 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 22:41:34.008
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 22:41:35.020
+!MESSAGE RedlinkServer telnet session connected on port 3025->51044 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 22:46:03.064
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 22:46:04.075
+!MESSAGE RedlinkServer telnet session connected on port 3025->51055 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 22:50:35.327
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 22:50:36.339
+!MESSAGE RedlinkServer telnet session connected on port 3025->51062 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 22:50:51.790
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 22:50:52.804
+!MESSAGE RedlinkServer telnet session connected on port 3025->51065 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 22:52:09.303
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 22:52:10.314
+!MESSAGE RedlinkServer telnet session connected on port 3025->51071 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 23:15:44.850
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 23:15:45.860
+!MESSAGE RedlinkServer telnet session connected on port 3025->51164 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 23:20:22.937
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 23:20:23.952
+!MESSAGE RedlinkServer telnet session connected on port 3025->51169 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 23:21:33.734
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 23:21:34.760
+!MESSAGE RedlinkServer telnet session connected on port 3025->51179 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 23:22:40.073
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 23:22:41.082
+!MESSAGE RedlinkServer telnet session connected on port 3025->51194 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-29 23:59:03.750
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-29 23:59:04.763
+!MESSAGE RedlinkServer telnet session connected on port 3025->51413 @ 127.0.0.1
+!SESSION 2024-01-30 17:06:36.399 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-30 17:08:07.756
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 1 0 2024-01-30 17:11:30.203
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-30 17:11:30.207
+!MESSAGE RedlinkServer telnet session connected on port 3025->52325 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-30 17:15:48.109
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-30 17:15:49.119
+!MESSAGE RedlinkServer telnet session connected on port 3025->52337 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-30 17:16:10.831
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-30 17:16:11.841
+!MESSAGE RedlinkServer telnet session connected on port 3025->52342 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-30 17:26:16.077
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-30 17:26:17.084
+!MESSAGE RedlinkServer telnet session connected on port 3025->52508 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-30 17:26:50.247
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-30 17:26:51.259
+!MESSAGE RedlinkServer telnet session connected on port 3025->52511 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-30 17:27:25.231
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-30 17:27:26.242
+!MESSAGE RedlinkServer telnet session connected on port 3025->52516 @ 127.0.0.1
+!SESSION 2024-01-30 21:38:39.738 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-30 21:39:27.169
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

@@ -214,6 +214,18 @@ void drawRotatedLine(float angle, float radius, uint16_t x1, uint16_t y1, uint16
     // Narysuj linię
     LCD_Draw_Line(x1, y1, (uint16_t)x2, (uint16_t)y2, color);
 }
+void drawRotatedLine2(float angle, float radius, uint16_t x1, uint16_t y1, uint16_t color,float shieldRate) {
+    // Przelicz współrzędne docelowe punktu (x2, y2)
+    float radians = angle * M_PI / 180.0;
+    float x2 = x1 + radius * sin(radians); // Użyj sinusa zamiast cosinusa
+    float y2 = y1 - radius * cos(radians); // Obróć kierunek odejmując od y1
+
+
+    // Narysuj linię
+    LCD_Draw_Line(x1 + (radius * sin(radians)) * shieldRate, y1 - (radius * cos(radians)) * shieldRate, (uint16_t)x2, (uint16_t)y2, color);
+}
+
+
 
 void drawPlot(q15_t *data, uint16_t w, uint16_t h, uint16_t color){
 	uint16_t y=0, y1=0;
@@ -312,7 +324,8 @@ void ADC0_IRQHANDLER(void) {
 		 //win[i] = Q15_MAX; // Rect Window
 		 win[i] = ((q31_t)Q15_MAX-arm_cos_q15((Q15_MAX*i/(q31_t)(NFFT-1))))/2; // Hann Window
 	 }
-
+	 float rmsValueFixed = 0;
+	 float alfa = 0.1;
 	 while (1) {
 		 if (dataReady) {
 			 px = x;
@@ -327,14 +340,14 @@ void ADC0_IRQHANDLER(void) {
 			 dataReady = false;
 			 LCD_Clear(0x0000);
 			 LCD_Set_Bitmap((int16_t*)VU);
-			 drawPlot(x, LCD_WIDTH, LCD_HEIGHT, 0x07FF); // Real part
+			 //drawPlot(x, LCD_WIDTH, LCD_HEIGHT, 0x07FF); // Real part
 			 cmplx_win_q15(win, x, x, NFFT);
 			 arm_cfft_q15(&instance, x, 0, 1);
 			 cmplx_mag_invfc_q15(x, x, NFFT / 2);
-			 drawBars(x, LCD_WIDTH, LCD_HEIGHT, 0x0FF0);
+			 //drawBars(x, LCD_WIDTH, LCD_HEIGHT, 0x0FF0);
 
 			 // Update and draw peaks
-			 updateAndDrawPeaks(tempMax, x, LCD_WIDTH, LCD_HEIGHT, 0x00F8);
+			 //updateAndDrawPeaks(tempMax, x, LCD_WIDTH, LCD_HEIGHT, 0x00F8);
 
 
 			 float rmsValue = calculateRMS(x, N2FFT);
@@ -348,7 +361,7 @@ void ADC0_IRQHANDLER(void) {
 			 snprintf(rmsText, sizeof(rmsText), "RMS Value: %d.%02d", intPart, decPart);
 
 			 // Wyświetl tekst na ekranie LCD
-			 LCD_Puts(10, 10, rmsText, 0xFFFF);  // Dostosuj położenie i kolor
+			 //LCD_Puts(10, 10, rmsText, 0xFFFF);  // Dostosuj położenie i kolor
 
 			 // Wartość referencyjna (np. dla 0 dB)
 			 float referenceLevel = 32768.0; // Zakładając, że sygnał jest w zakresie od -32768 do 32767 (q15_t)
@@ -356,8 +369,10 @@ void ADC0_IRQHANDLER(void) {
 			 // Oblicz RMS
 			 rmsValue = calculateRMS(x, NFFT);
 
+			 rmsValueFixed = (alfa * rmsValue) + ((1 - alfa) * rmsValueFixed);
+
 			 // Korekta dla przeskalowania wartości RMS na poziom dB
-			 float dBValue = 20 * log10(rmsValue / referenceLevel);
+			 float dBValue = 20 * log10(rmsValueFixed / referenceLevel);
 
 			 char VuText[16];
 			 // Wyświetl wynik na ekranie LCD lub zastosuj w inny sposób
@@ -365,8 +380,8 @@ void ADC0_IRQHANDLER(void) {
 
 			     float xmin = -100.0;
 			     float xmax = -50.0;
-			     float ymin = -20.0;
-			     float ymax = 5.0;
+			     float ymin = -30.0;
+			     float ymax = 10.0;
 
 			     // Map the value
 			     float mappedValue = mapValue(dBValue, xmin, xmax, ymin, ymax);
@@ -375,15 +390,16 @@ void ADC0_IRQHANDLER(void) {
 			 snprintf(VuText, sizeof(VuText), "VU Value: %d",(int)mappedValue);
 
 			 			 // Wyświetl tekst na ekranie LCD
-			 LCD_Puts(10, 60, VuText, 0xFFFF);  // Dostosuj położenie i kolor
+			 //LCD_Puts(10, 60, VuText, 0xFFFF);  // Dostosuj położenie i kolor
 
 			 uint16_t x1 = 80;
-			 uint16_t y1 = 100;
+			 uint16_t y1 = 120;
 
-			 float angle = -50 + (mappedValue - ymin) * (100.0 / (ymax - ymin)); // Przelicz kąt na podstawie mappedValue
+			 float angle = -33 + (mappedValue - ymin) * (76.0 / (ymax - ymin)); // Przelicz kąt na podstawie mappedValue
 
 			 // Rysuj linię
-			 drawRotatedLine(angle, 60, x1, y1, 0xF00F);
+			 drawRotatedLine2(angle, 95, x1, y1, 0xF00F,0.25);
+
 /////////////////////////////
 
 			 LCD_GramRefresh();
