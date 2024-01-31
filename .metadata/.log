@@ -8415,3 +8415,872 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-30 23:38:51.453
+!MESSAGE Indexed 'PSW_Lab4' (29 sources, 140 headers) in 5,12 sec: 13 533 declarations; 30 434 references; 14 unresolved inclusions; 52 syntax errors; 2 545 unresolved names (5,5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-30 23:41:29.640
+!MESSAGE Indexed 'PSW_L9joyGame' (29 sources, 144 headers) in 3,39 sec: 14 083 declarations; 34 856 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2024-01-30 23:43:50.150
+!MESSAGE Failed to switch to function 'PinsFunc_1'. Function not found.
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.337
+!MESSAGE [TOOL] Could not find any matching component for type ostimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.385
+!MESSAGE [TOOL] Could not find any matching component for type sctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.470
+!MESSAGE [TOOL] Could not find any matching component for type lpc_dma
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.482
+!MESSAGE [TOOL] Could not find any matching component for type wwdt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.494
+!MESSAGE [TOOL] Could not find any matching component for type lpc_crc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.513
+!MESSAGE [TOOL] Could not find any matching component for type pint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.525
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.537
+!MESSAGE [TOOL] Could not find any matching component for type mrt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.586
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2s
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.599
+!MESSAGE [TOOL] Could not find any matching component for type utick
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.619
+!MESSAGE [TOOL] Could not find any matching component for type gint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.684
+!MESSAGE [TOOL] Could not find any matching component for type cmp_1
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.703
+!MESSAGE [TOOL] Could not find any matching component for type lpc_rtc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-30 23:48:04.750
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.crt.log 1 0 2024-01-31 00:00:30.028
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 00:00:30.032
+!MESSAGE RedlinkServer telnet session connected on port 3025->54488 @ 127.0.0.1
+
+!ENTRY [ERROR] [com.nxp.mcuxpresso.core.debug.support.linkserver] 0 0 2024-01-31 00:00:59.735
+!MESSAGE 0x301, No probes found
+
+!ENTRY com.crt.log 1 0 2024-01-31 00:03:49.235
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 00:03:50.243
+!MESSAGE RedlinkServer telnet session connected on port 3025->54525 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 00:04:04.184
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 00:04:05.191
+!MESSAGE RedlinkServer telnet session connected on port 3025->54528 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 00:05:06.391
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 00:05:07.398
+!MESSAGE RedlinkServer telnet session connected on port 3025->54531 @ 127.0.0.1
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-01-31 00:06:28.035
+!MESSAGE An internal error occurred during: "UI refresh".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1278)
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2590)
+	at com.nxp.swtools.common.ui.utils.progress.UIJobHelper.runNowOrInJob(UIJobHelper.java:215)
+	at com.nxp.swtools.validation.engine.internal.ValidationService$DelayedExecutor.cancelPrevJob(ValidationService.java:230)
+	at com.nxp.swtools.validation.engine.internal.ValidationService$DelayedExecutor.runAction(ValidationService.java:205)
+	at com.nxp.swtools.common.utils.runtime.DelayedExecution$1.run(DelayedExecution.java:376)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-01-31 11:48:26.852 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-31 11:51:36.162
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.475
+!MESSAGE [TOOL] Could not find any matching component for type powerquad
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.488
+!MESSAGE [TOOL] Could not find any matching component for type ostimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.539
+!MESSAGE [TOOL] Could not find any matching component for type sctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.629
+!MESSAGE [TOOL] Could not find any matching component for type lpc_dma
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.642
+!MESSAGE [TOOL] Could not find any matching component for type wwdt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.655
+!MESSAGE [TOOL] Could not find any matching component for type lpc_crc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.675
+!MESSAGE [TOOL] Could not find any matching component for type pint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.688
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.701
+!MESSAGE [TOOL] Could not find any matching component for type mrt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.730
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2s
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.743
+!MESSAGE [TOOL] Could not find any matching component for type utick
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.764
+!MESSAGE [TOOL] Could not find any matching component for type gint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.834
+!MESSAGE [TOOL] Could not find any matching component for type cmp_1
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.859
+!MESSAGE [TOOL] Could not find any matching component for type lpc_rtc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:09:11.910
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2024-01-31 12:11:40.606
+!MESSAGE Failed to switch to function 'PinsFunc_1'. Function not found.
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.317
+!MESSAGE [TOOL] Could not find any matching component for type powerquad
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.332
+!MESSAGE [TOOL] Could not find any matching component for type ostimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.387
+!MESSAGE [TOOL] Could not find any matching component for type sctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.481
+!MESSAGE [TOOL] Could not find any matching component for type lpc_dma
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.494
+!MESSAGE [TOOL] Could not find any matching component for type wwdt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.507
+!MESSAGE [TOOL] Could not find any matching component for type lpc_crc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.528
+!MESSAGE [TOOL] Could not find any matching component for type pint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.545
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.558
+!MESSAGE [TOOL] Could not find any matching component for type mrt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.587
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2s
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.600
+!MESSAGE [TOOL] Could not find any matching component for type utick
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.623
+!MESSAGE [TOOL] Could not find any matching component for type gint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.690
+!MESSAGE [TOOL] Could not find any matching component for type cmp_1
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.711
+!MESSAGE [TOOL] Could not find any matching component for type lpc_rtc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:14:41.751
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:04.280
+!MESSAGE [TOOL] Could not find any matching component for type lpc_gpio_adapter
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:04.294
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2c_cmsis
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:04.321
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_usart_cmsis
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:04.333
+!MESSAGE [TOOL] Could not find any matching component for type gint_adapter
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:04.345
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_spi_cmsis
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:07.872
+!MESSAGE [TOOL] Could not find any matching component for type powerquad
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:07.884
+!MESSAGE [TOOL] Could not find any matching component for type ostimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:07.935
+!MESSAGE [TOOL] Could not find any matching component for type sctimer
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.023
+!MESSAGE [TOOL] Could not find any matching component for type lpc_dma
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.035
+!MESSAGE [TOOL] Could not find any matching component for type wwdt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.047
+!MESSAGE [TOOL] Could not find any matching component for type lpc_crc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.067
+!MESSAGE [TOOL] Could not find any matching component for type pint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.080
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.093
+!MESSAGE [TOOL] Could not find any matching component for type mrt
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.120
+!MESSAGE [TOOL] Could not find any matching component for type flexcomm_i2s
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.133
+!MESSAGE [TOOL] Could not find any matching component for type utick
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.153
+!MESSAGE [TOOL] Could not find any matching component for type gint
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.225
+!MESSAGE [TOOL] Could not find any matching component for type cmp_1
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.245
+!MESSAGE [TOOL] Could not find any matching component for type lpc_rtc
+
+!ENTRY com.nxp.swtools.periphs.gui.view 4 0 2024-01-31 12:15:08.294
+!MESSAGE [TOOL] Could not find any matching component for type hashcrypt
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:28:54.843
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:28:54.848
+!MESSAGE RedlinkServer telnet session connected on port 3025->55774 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2024-01-31 12:29:28.732
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-31 12:32:22.127
+!MESSAGE Indexed 'PSW_L9joyGame' (30 sources, 187 headers) in 8,75 sec: 23 070 declarations; 47 632 references; 0 unresolved inclusions; 8 syntax errors; 80 unresolved names (0,11%)
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:32:42.535
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:32:43.541
+!MESSAGE RedlinkServer telnet session connected on port 3025->55788 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:34:13.195
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:34:14.206
+!MESSAGE RedlinkServer telnet session connected on port 3025->55792 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-31 12:34:50.629
+!MESSAGE Indexed 'PSW_L9joyGame' (30 sources, 188 headers) in 4,99 sec: 23 098 declarations; 48 800 references; 0 unresolved inclusions; 8 syntax errors; 80 unresolved names (0,11%)
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:35:00.578
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:35:01.591
+!MESSAGE RedlinkServer telnet session connected on port 3025->55795 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:37:02.533
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:37:03.544
+!MESSAGE RedlinkServer telnet session connected on port 3025->55824 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:38:13.464
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:38:14.474
+!MESSAGE RedlinkServer telnet session connected on port 3025->55828 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:38:49.488
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:38:50.495
+!MESSAGE RedlinkServer telnet session connected on port 3025->55831 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:39:25.386
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:39:26.396
+!MESSAGE RedlinkServer telnet session connected on port 3025->55834 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:41:55.971
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:41:56.981
+!MESSAGE RedlinkServer telnet session connected on port 3025->55844 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:44:00.651
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:44:01.663
+!MESSAGE RedlinkServer telnet session connected on port 3025->55847 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:45:17.065
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:45:18.077
+!MESSAGE RedlinkServer telnet session connected on port 3025->55851 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:48:21.543
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:48:22.551
+!MESSAGE RedlinkServer telnet session connected on port 3025->55872 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:49:50.549
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:49:51.558
+!MESSAGE RedlinkServer telnet session connected on port 3025->55879 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-31 12:53:20.335
+!MESSAGE Indexed 'PSW_L9joyGame' (30 sources, 188 headers) in 4,22 sec: 23 098 declarations; 48 805 references; 0 unresolved inclusions; 8 syntax errors; 80 unresolved names (0,11%)
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:53:24.955
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:53:25.963
+!MESSAGE RedlinkServer telnet session connected on port 3025->55885 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:53:51.428
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:53:52.436
+!MESSAGE RedlinkServer telnet session connected on port 3025->55888 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:58:15.856
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:58:16.868
+!MESSAGE RedlinkServer telnet session connected on port 3025->55897 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 12:59:57.764
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 12:59:58.775
+!MESSAGE RedlinkServer telnet session connected on port 3025->55908 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:01:04.177
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:01:05.189
+!MESSAGE RedlinkServer telnet session connected on port 3025->55912 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:01:47.295
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:01:48.306
+!MESSAGE RedlinkServer telnet session connected on port 3025->55916 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:03:15.652
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:03:16.666
+!MESSAGE RedlinkServer telnet session connected on port 3025->55920 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:04:34.037
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:04:35.048
+!MESSAGE RedlinkServer telnet session connected on port 3025->55938 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:05:12.765
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:05:13.776
+!MESSAGE RedlinkServer telnet session connected on port 3025->55941 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:05:29.205
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:05:30.213
+!MESSAGE RedlinkServer telnet session connected on port 3025->55944 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:11:33.582
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:11:34.595
+!MESSAGE RedlinkServer telnet session connected on port 3025->55950 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:14:18.204
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:14:19.215
+!MESSAGE RedlinkServer telnet session connected on port 3025->55958 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:15:22.053
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:15:23.066
+!MESSAGE RedlinkServer telnet session connected on port 3025->55963 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-31 13:17:51.374
+!MESSAGE Indexed 'PSW_L9' (28 sources, 49 headers) in 1,46 sec: 8 026 declarations; 23 953 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:20:42.004
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:20:43.017
+!MESSAGE RedlinkServer telnet session connected on port 3025->55982 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:22:29.442
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:22:30.452
+!MESSAGE RedlinkServer telnet session connected on port 3025->55986 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:24:24.733
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:24:25.744
+!MESSAGE RedlinkServer telnet session connected on port 3025->55989 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:24:46.518
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:24:47.530
+!MESSAGE RedlinkServer telnet session connected on port 3025->55993 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:28:02.682
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:28:03.690
+!MESSAGE RedlinkServer telnet session connected on port 3025->55998 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:31:27.682
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:31:28.694
+!MESSAGE RedlinkServer telnet session connected on port 3025->56005 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:32:28.710
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:32:29.722
+!MESSAGE RedlinkServer telnet session connected on port 3025->56011 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:32:56.185
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:32:57.198
+!MESSAGE RedlinkServer telnet session connected on port 3025->56014 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:33:45.822
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:33:46.836
+!MESSAGE RedlinkServer telnet session connected on port 3025->56017 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:34:48.196
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:34:49.209
+!MESSAGE RedlinkServer telnet session connected on port 3025->56021 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:35:40.392
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:35:41.399
+!MESSAGE RedlinkServer telnet session connected on port 3025->56024 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:36:14.345
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:36:15.352
+!MESSAGE RedlinkServer telnet session connected on port 3025->56029 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:37:01.625
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:37:02.635
+!MESSAGE RedlinkServer telnet session connected on port 3025->56032 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:37:18.530
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:37:19.536
+!MESSAGE RedlinkServer telnet session connected on port 3025->56035 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:41:15.898
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:41:16.910
+!MESSAGE RedlinkServer telnet session connected on port 3025->56051 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:46:55.482
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:46:56.488
+!MESSAGE RedlinkServer telnet session connected on port 3025->56068 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 13:48:27.717
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 13:48:28.729
+!MESSAGE RedlinkServer telnet session connected on port 3025->56108 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 15:42:46.835
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 15:42:47.844
+!MESSAGE RedlinkServer telnet session connected on port 3025->52013 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 15:44:55.485
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 15:44:56.497
+!MESSAGE RedlinkServer telnet session connected on port 3025->52040 @ 127.0.0.1
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-01-31 15:52:14.473
+!MESSAGE Cannot add source to the list of segments in P/PSW_L9joyGame::source::P/PSW_L9:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add source to the list of segments in P/PSW_L9joyGame::source::P/PSW_L9:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1758)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:573)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1696)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2459)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:69)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:55)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:168)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:93)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:208)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:165)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:54)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-01-31 15:52:14.475
+!MESSAGE Cannot add source to the list of segments in P/PSW_L9joyGame::source::P/PSW_L9::source:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add source to the list of segments in P/PSW_L9joyGame::source::P/PSW_L9::source:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1758)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:573)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1696)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2459)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:69)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:55)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:168)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:93)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:208)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:165)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:54)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-01-31 15:52:14.476
+!MESSAGE Cannot add source to the list of segments in P/PSW_L9joyGame::source::P/PSW_L9:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add source to the list of segments in P/PSW_L9joyGame::source::P/PSW_L9:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1758)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:573)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1696)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1698)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2459)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:69)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:55)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:168)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:93)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:208)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:165)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:54)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-01-31 15:52:14.476
+!MESSAGE Cannot add P/PSW_L9joyGame to the list of segments in source::P/PSW_L9joyGame:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/PSW_L9joyGame to the list of segments in source::P/PSW_L9joyGame:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1758)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:573)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1696)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2459)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:69)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:55)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:168)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:93)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:208)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:165)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:54)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-01-31 15:52:14.477
+!MESSAGE Cannot add P/PSW_L9joyGame to the list of segments in source::P/PSW_L9joyGame::board:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/PSW_L9joyGame to the list of segments in source::P/PSW_L9joyGame::board:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1758)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:573)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1696)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2459)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:69)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:55)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:168)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:93)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:208)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:165)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:54)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-01-31 15:52:14.478
+!MESSAGE Cannot add P/PSW_L9joyGame to the list of segments in source::P/PSW_L9joyGame:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/PSW_L9joyGame to the list of segments in source::P/PSW_L9joyGame:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1758)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:573)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1696)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1698)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setExpandedElements(AbstractTreeViewer.java:2459)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.frameChanged(TreeViewerFrameSource.java:69)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.frameChanged(CommonNavigatorFrameSource.java:55)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.handlePropertyChange(TreeViewerFrameSource.java:168)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.firePropertyChange(FrameList.java:93)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.setCurrent(FrameList.java:208)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.gotoFrame(FrameList.java:165)
+	at org.eclipse.ui.internal.navigator.framelist.GoIntoAction.run(GoIntoAction.java:54)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.crt.log 1 0 2024-01-31 16:37:58.745
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 16:37:59.759
+!MESSAGE RedlinkServer telnet session connected on port 3025->52152 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 16:45:27.607
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 16:45:28.619
+!MESSAGE RedlinkServer telnet session connected on port 3025->52164 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 16:46:30.386
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 16:46:31.395
+!MESSAGE RedlinkServer telnet session connected on port 3025->52167 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-01-31 16:47:00.329
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-01-31 16:47:01.340
+!MESSAGE RedlinkServer telnet session connected on port 3025->52170 @ 127.0.0.1
