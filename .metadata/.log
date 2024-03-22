@@ -11793,3 +11793,93 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Display._
 
 !ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 21:05:16.343
 !MESSAGE RedlinkServer telnet session connected on port 3025->52477 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-22 21:45:17.572
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 21:45:18.583
+!MESSAGE RedlinkServer telnet session connected on port 3025->52533 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-22 22:57:11.558
+!MESSAGE Indexed 'SysTick' (25 sources, 34 headers) in 2,49 sec: 5 942 declarations; 14 625 references; 28 unresolved inclusions; 59 syntax errors; 3 939 unresolved names (16%)
+
+!ENTRY com.crt.log 1 0 2024-03-22 23:58:44.111
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 23:58:45.125
+!MESSAGE RedlinkServer telnet session connected on port 3025->51141 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-22 23:59:19.837
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 23:59:20.848
+!MESSAGE RedlinkServer telnet session connected on port 3025->51144 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-22 23:59:44.037
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 23:59:45.047
+!MESSAGE RedlinkServer telnet session connected on port 3025->51147 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:00:08.524
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:00:09.530
+!MESSAGE RedlinkServer telnet session connected on port 3025->51153 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:00:27.979
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:00:28.992
+!MESSAGE RedlinkServer telnet session connected on port 3025->51157 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:00:47.681
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:00:48.698
+!MESSAGE RedlinkServer telnet session connected on port 3025->51161 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:02:18.652
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:02:19.663
+!MESSAGE RedlinkServer telnet session connected on port 3025->51165 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:05:06.871
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:05:07.883
+!MESSAGE RedlinkServer telnet session connected on port 3025->51180 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:05:26.940
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:05:27.945
+!MESSAGE RedlinkServer telnet session connected on port 3025->51183 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-23 00:06:32.003
+!MESSAGE Indexed 'SysTickDelay' (25 sources, 47 headers) in 1,2 sec: 7 105 declarations; 20 307 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:08:30.759
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:08:31.768
+!MESSAGE RedlinkServer telnet session connected on port 3025->51204 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:08:52.652
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:08:53.662
+!MESSAGE RedlinkServer telnet session connected on port 3025->51209 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:09:36.617
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:09:37.631
+!MESSAGE RedlinkServer telnet session connected on port 3025->51214 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:11:47.698
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:11:48.710
+!MESSAGE RedlinkServer telnet session connected on port 3025->51217 @ 127.0.0.1
