@@ -11730,3 +11730,66 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Display._
 
 !ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 18:49:08.067
 !MESSAGE RedlinkServer telnet session connected on port 3025->51955 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-22 20:33:30.662
+!MESSAGE Indexed 'encRtcClock' (27 sources, 50 headers) in 1,3 sec: 7 672 declarations; 21 692 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2024-03-22 20:34:54.407
+!MESSAGE Failed to switch to function 'PinsFunc_1'. Function not found.
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2024-03-22 20:37:58.797
+!MESSAGE Failed to switch to function 'PinsFunc_1'. Function not found.
+
+!ENTRY com.crt.log 1 0 2024-03-22 20:44:36.018
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 20:44:37.026
+!MESSAGE RedlinkServer telnet session connected on port 3025->52230 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-22 20:47:56.832
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 20:47:57.843
+!MESSAGE RedlinkServer telnet session connected on port 3025->52405 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-22 20:48:29.653
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 20:48:30.658
+!MESSAGE RedlinkServer telnet session connected on port 3025->52408 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-22 20:49:19.088
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 20:49:20.094
+!MESSAGE RedlinkServer telnet session connected on port 3025->52412 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-22 20:50:25.122
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 20:50:26.135
+!MESSAGE RedlinkServer telnet session connected on port 3025->52415 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-03-22 21:00:43.315
+!MESSAGE Overwriting file '/encRtcClock/board/clock_config.h' by 'boards/lpcxpresso55s69/project_template/clock_config.h'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-03-22 21:00:44.315
+!MESSAGE Overwriting file '/encRtcClock/board/pin_mux.h' by 'boards/lpcxpresso55s69/project_template/pin_mux.h'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-03-22 21:00:45.202
+!MESSAGE Overwriting file '/encRtcClock/board/peripherals.h' by 'boards/lpcxpresso55s69/project_template/peripherals.h'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-03-22 21:00:46.267
+!MESSAGE Overwriting file '/encRtcClock/board/clock_config.c' by 'boards/lpcxpresso55s69/project_template/clock_config.c'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-03-22 21:00:47.128
+!MESSAGE Overwriting file '/encRtcClock/board/pin_mux.c' by 'boards/lpcxpresso55s69/project_template/pin_mux.c'
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 2 0 2024-03-22 21:00:48.985
+!MESSAGE Overwriting file '/encRtcClock/board/peripherals.c' by 'boards/lpcxpresso55s69/project_template/peripherals.c'
+
+!ENTRY com.crt.log 1 0 2024-03-22 21:05:15.332
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-22 21:05:16.343
+!MESSAGE RedlinkServer telnet session connected on port 3025->52477 @ 127.0.0.1
