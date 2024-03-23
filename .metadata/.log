@@ -11883,3 +11883,42 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Display._
 
 !ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:11:48.710
 !MESSAGE RedlinkServer telnet session connected on port 3025->51217 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-23 00:15:29.666
+!MESSAGE Indexed 'cTimerMatch' (26 sources, 46 headers) in 2,05 sec: 7 292 declarations; 17 907 references; 14 unresolved inclusions; 51 syntax errors; 2 442 unresolved names (8,8%)
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:38:27.750
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:38:28.763
+!MESSAGE RedlinkServer telnet session connected on port 3025->51291 @ 127.0.0.1
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2024-03-23 00:41:43.783
+!MESSAGE Failed to switch to function 'PinsFunc_1'. Function not found.
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:43:19.561
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:43:20.573
+!MESSAGE RedlinkServer telnet session connected on port 3025->51297 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:45:51.429
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:45:52.441
+!MESSAGE RedlinkServer telnet session connected on port 3025->51309 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-23 00:47:42.811
+!MESSAGE Indexed 'cTimerPWM' (26 sources, 48 headers) in 1,29 sec: 7 375 declarations; 21 133 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.nxp.swtools.mux.view 4 0 2024-03-23 00:53:14.681
+!MESSAGE Failed to switch to function 'PinsFunc_1'. Function not found.
+
+!ENTRY com.crt.log 1 0 2024-03-23 00:55:44.609
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2024-03-23 00:55:45.621
+!MESSAGE RedlinkServer telnet session connected on port 3025->51324 @ 127.0.0.1
+
+!ENTRY [ERROR] [com.nxp.mcuxpresso.core.debug.support.linkserver] 0 0 2024-03-23 00:56:00.650
+!MESSAGE 0x301, No probes found
