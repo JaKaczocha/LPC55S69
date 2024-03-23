@@ -383,6 +383,98 @@ void BOARD_InitI2SPins(void); /* Function assigned for the Cortex-M33 (Core #0) 
  */
 void BOARD_InitACCELPins(void); /* Function assigned for the Cortex-M33 (Core #0) */
 
+/*!
+ * @brief Select Digital mode.: Enable Digital mode. Digital input is enabled. */
+#define PIO0_13_DIGIMODE_DIGITAL 0x01u
+/*!
+ * @brief Switch between GPIO mode and I2C mode.: I2C mode. */
+#define PIO0_13_EGP_I2C_MODE 0x00u
+/*!
+ * @brief Selects pin function.: Alternative connection 1. */
+#define PIO0_13_FUNC_ALT1 0x01u
+/*!
+ * @brief Select Digital mode.: Enable Digital mode. Digital input is enabled. */
+#define PIO0_14_DIGIMODE_DIGITAL 0x01u
+/*!
+ * @brief Switch between GPIO mode and I2C mode.: I2C mode. */
+#define PIO0_14_EGP_I2C_MODE 0x00u
+/*!
+ * @brief Selects pin function.: Alternative connection 1. */
+#define PIO0_14_FUNC_ALT1 0x01u
+
+/*!
+ * @brief Configures pin routing and optionally pin electrical features.
+ *
+ */
+void BOARD_InitOLEDPins(void); /* Function assigned for the Cortex-M33 (Core #0) */
+
+/*!
+ * @brief Select Digital mode.: Enable Digital mode. Digital input is enabled. */
+#define PIO0_2_DIGIMODE_DIGITAL 0x01u
+/*!
+ * @brief Selects pin function.: Alternative connection 0. */
+#define PIO0_2_FUNC_ALT0 0x00u
+/*!
+ * @brief Selects function mode (on-chip pull-up/pull-down resistor control).: Pull-up. Pull-up resistor enabled. */
+#define PIO0_2_MODE_PULL_UP 0x02u
+/*!
+ * @brief Select Digital mode.: Enable Digital mode. Digital input is enabled. */
+#define PIO0_3_DIGIMODE_DIGITAL 0x01u
+/*!
+ * @brief Selects pin function.: Alternative connection 0. */
+#define PIO0_3_FUNC_ALT0 0x00u
+/*!
+ * @brief Selects function mode (on-chip pull-up/pull-down resistor control).: Pull-up. Pull-up resistor enabled. */
+#define PIO0_3_MODE_PULL_UP 0x02u
+/*!
+ * @brief Select Digital mode.: Enable Digital mode. Digital input is enabled. */
+#define PIO0_6_DIGIMODE_DIGITAL 0x01u
+/*!
+ * @brief Selects pin function.: Alternative connection 0. */
+#define PIO0_6_FUNC_ALT0 0x00u
+/*!
+ * @brief Selects function mode (on-chip pull-up/pull-down resistor control).: Pull-up. Pull-up resistor enabled. */
+#define PIO0_6_MODE_PULL_UP 0x02u
+
+/*! @name PIO0_6 (number 89), U3[13]/P20[7]/FC3_SPI_SCK
+  @{ */
+
+/* Symbols to be used with GPIO driver */
+#define BOARD_INITENCPINS_SW_GPIO GPIO                /*!<@brief GPIO peripheral base pointer */
+#define BOARD_INITENCPINS_SW_GPIO_PIN_MASK (1U << 6U) /*!<@brief GPIO pin mask */
+#define BOARD_INITENCPINS_SW_PORT 0U                  /*!<@brief PORT peripheral base pointer */
+#define BOARD_INITENCPINS_SW_PIN 6U                   /*!<@brief PORT pin number */
+#define BOARD_INITENCPINS_SW_PIN_MASK (1U << 6U)      /*!<@brief PORT pin mask */
+                                                      /* @} */
+
+/*! @name PIO0_2 (number 81), U6[11]/P20[5]/FC3_SPI_MISO
+  @{ */
+
+/* Symbols to be used with GPIO driver */
+#define BOARD_INITENCPINS_SIB_GPIO GPIO                /*!<@brief GPIO peripheral base pointer */
+#define BOARD_INITENCPINS_SIB_GPIO_PIN_MASK (1U << 2U) /*!<@brief GPIO pin mask */
+#define BOARD_INITENCPINS_SIB_PORT 0U                  /*!<@brief PORT peripheral base pointer */
+#define BOARD_INITENCPINS_SIB_PIN 2U                   /*!<@brief PORT pin number */
+#define BOARD_INITENCPINS_SIB_PIN_MASK (1U << 2U)      /*!<@brief PORT pin mask */
+                                                       /* @} */
+
+/*! @name PIO0_3 (number 83), U3[11]/P20[3]/FC3_SPI_MOSI
+  @{ */
+
+/* Symbols to be used with GPIO driver */
+#define BOARD_INITENCPINS_SIA_GPIO GPIO                /*!<@brief GPIO peripheral base pointer */
+#define BOARD_INITENCPINS_SIA_GPIO_PIN_MASK (1U << 3U) /*!<@brief GPIO pin mask */
+#define BOARD_INITENCPINS_SIA_PORT 0U                  /*!<@brief PORT peripheral base pointer */
+#define BOARD_INITENCPINS_SIA_PIN 3U                   /*!<@brief PORT pin number */
+#define BOARD_INITENCPINS_SIA_PIN_MASK (1U << 3U)      /*!<@brief PORT pin mask */
+                                                       /* @} */
+
+/*!
+ * @brief Configures pin routing and optionally pin electrical features.
+ *
+ */
+void BOARD_InitENCPins(void); /* Function assigned for the Cortex-M33 (Core #0) */
+
 #if defined(__cplusplus)
 }
 #endif

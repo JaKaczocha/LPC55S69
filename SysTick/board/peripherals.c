@@ -72,7 +72,9 @@ instance:
 - peripheral: 'NVIC'
 - config_sets:
   - nvic:
-    - interrupt_table: []
+    - interrupt_table:
+      - 0: []
+      - 1: []
     - interrupts: []
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS **********/
 /* clang-format on */
@@ -82,11 +84,106 @@ static void NVIC_init(void) {
 } */
 
 /***********************************************************************************************************************
+ * PINT initialization code
+ **********************************************************************************************************************/
+/* clang-format off */
+/* TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
+instance:
+- name: 'PINT'
+- type: 'pint'
+- mode: 'interrupt_mode'
+- custom_name_enabled: 'false'
+- type_id: 'pint_cf4a806bb2a6c1ffced58ae2ed7b43af'
+- functional_group: 'BOARD_InitPeripherals_cm33_core0'
+- peripheral: 'PINT'
+- config_sets:
+  - general:
+    - interrupt_array:
+      - 0:
+        - interrupt_id: 'INT_0'
+        - interrupt_selection: 'PINT.0'
+        - interrupt_type: 'kPINT_PinIntEnableFallEdge'
+        - callback_function: 'intEncSW'
+        - enable_callback: 'true'
+        - interrupt:
+          - IRQn: 'PIN_INT0_IRQn'
+          - enable_priority: 'true'
+          - priority: '0'
+      - 1:
+        - interrupt_id: 'INT_1'
+        - interrupt_selection: 'PINT.2'
+        - interrupt_type: 'kPINT_PinIntEnableFallEdge'
+        - callback_function: 'intEncSIA'
+        - enable_callback: 'true'
+        - interrupt:
+          - IRQn: 'PIN_INT2_IRQn'
+          - enable_priority: 'true'
+          - priority: '0'
+ * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS **********/
+/* clang-format on */
+
+static void PINT_init(void) {
+  /* PINT initiation  */
+  PINT_Init(PINT_PERIPHERAL);
+  /* Interrupt vector PIN_INT0_IRQn priority settings in the NVIC. */
+  NVIC_SetPriority(PINT_PINT_0_IRQN, PINT_PINT_0_IRQ_PRIORITY);
+  /* Interrupt vector PIN_INT2_IRQn priority settings in the NVIC. */
+  NVIC_SetPriority(PINT_PINT_2_IRQN, PINT_PINT_2_IRQ_PRIORITY);
+  /* PINT PINT.0 configuration */
+  PINT_PinInterruptConfig(PINT_PERIPHERAL, PINT_INT_0, kPINT_PinIntEnableFallEdge, intEncSW);
+  /* PINT PINT.2 configuration */
+  PINT_PinInterruptConfig(PINT_PERIPHERAL, PINT_INT_1, kPINT_PinIntEnableFallEdge, intEncSIA);
+  /* Enable PINT PINT.0 callback */
+  PINT_EnableCallbackByIndex(PINT_PERIPHERAL, kPINT_PinInt0);
+  /* Enable PINT PINT.2 callback */
+  PINT_EnableCallbackByIndex(PINT_PERIPHERAL, kPINT_PinInt2);
+}
+
+/***********************************************************************************************************************
+ * FLEXCOMM1 initialization code
+ **********************************************************************************************************************/
+/* clang-format off */
+/* TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
+instance:
+- name: 'FLEXCOMM1'
+- type: 'flexcomm_i2c'
+- mode: 'I2C_Polling'
+- custom_name_enabled: 'false'
+- type_id: 'flexcomm_i2c_c8597948f61bd571ab263ea4330b9dd6'
+- functional_group: 'BOARD_InitPeripherals_cm33_core0'
+- peripheral: 'FLEXCOMM1'
+- config_sets:
+  - fsl_i2c:
+    - i2c_mode: 'kI2C_Master'
+    - clockSource: 'FXCOMFunctionClock'
+    - clockSourceFreq: 'BOARD_BootClockPLL150M'
+    - i2c_master_config:
+      - enableMaster: 'true'
+      - baudRate_Bps: '1000000'
+      - enableTimeout: 'false'
+      - timeout_Ms: '35'
+ * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS **********/
+/* clang-format on */
+const i2c_master_config_t FLEXCOMM1_config = {
+  .enableMaster = true,
+  .baudRate_Bps = 1000000UL,
+  .enableTimeout = false,
+  .timeout_Ms = 35U
+};
+
+static void FLEXCOMM1_init(void) {
+  /* Initialization function */
+  I2C_MasterInit(FLEXCOMM1_PERIPHERAL, &FLEXCOMM1_config, FLEXCOMM1_CLOCK_SOURCE);
+}
+
+/***********************************************************************************************************************
  * Initialization functions
  **********************************************************************************************************************/
 void BOARD_InitPeripherals_cm33_core0(void)
 {
   /* Initialize components */
+  PINT_init();
+  FLEXCOMM1_init();
 }
 
 /***********************************************************************************************************************
