@@ -1,0 +1,10 @@
+"Task Aware Debugger for GDB" version 11.9.0 (202311161535)
+Copyright 2016-2023 NXP
+==================================
+20:44:18.967 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\User\Desktop\LPC55S69\LPC55S69\projectLPS25HB\Debug\.config (Nie można odnaleźć określonego pliku)]
+20:44:18.967 INFO: [TadModel] DSF session ID 3 has started.
+20:44:24.394 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+20:44:24.445 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+20:44:25.472 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+20:44:25.523 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, ERROR)
+20:44:29.505 INFO: [TadModel] DSF session ID 3 has ended.
